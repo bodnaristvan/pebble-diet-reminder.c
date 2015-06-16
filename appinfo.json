@@ -1,0 +1,35 @@
+{
+  "uuid": "f88f6a23-6543-466e-8194-5daa2f263fc1",
+  "shortName": "Diet reminder",
+  "longName": "Diet reminder",
+  "companyName": "istvan.bodnar@gmail.com",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+        {
+            "file": "images/apple-icon.png",
+            "name": "IMAGES_APPLE_ICON_PNG",
+            "type": "png"
+        },
+        {
+            "file": "images/play.png",
+            "name": "ICON_PLAY",
+            "type": "png"
+        },
+        {
+            "file": "images/apple-icon-small.png",
+            "menuIcon": true,
+            "name": "IMAGES_APPLE_ICON_SMALL_PNG",
+            "type": "png"
+        }
+    ]
+  }
+}
