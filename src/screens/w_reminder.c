@@ -31,7 +31,7 @@ void reminder_window_load(Window *window) {
 	text_layer_set_text_alignment(s_reminder_nextcal_layer, GTextAlignmentCenter);
 	
 	static char calstr[100];
-	snprintf(calstr, sizeof(calstr), "%dkcal", (int)((meals[meal_index].percentage * TOTAL_CALORIES)+0.5));
+	snprintf(calstr, sizeof(calstr), "%dkcal", (int)((meals[meal_index].percentage * get_daily_allowed_calories())+0.5));
 	s_reminder_calorie_layer = text_layer_create(GRect(0, 70, 144, 60));
 	text_layer_set_background_color(s_reminder_calorie_layer, GColorClear);
 	text_layer_set_overflow_mode(s_reminder_calorie_layer, GTextOverflowModeWordWrap);

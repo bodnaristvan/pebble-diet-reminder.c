@@ -1,5 +1,3 @@
-void settings_window_load(NumberWindow *window);
-
-void settings_window_unload(NumberWindow *window);
-
 NumberWindow* create_settings_window();
+
+void set_calories(struct NumberWindow *number_window, void *context);

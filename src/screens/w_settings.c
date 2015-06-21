@@ -2,9 +2,7 @@
 #include "meals.h"
 #include "w_settings.h"
 
-// static void set_calories(struct NumberWindow *number_window, void *context);
-static void set_calories(struct NumberWindow *number_window, void *context) {
-	// add this to persistent: (number_window_get_value(number_window));
+void set_calories(struct NumberWindow *number_window, void *context) {
 	persist_write_int(PERSIST_CALORIES, (int)number_window_get_value(number_window));
 	window_stack_pop(true);
 }

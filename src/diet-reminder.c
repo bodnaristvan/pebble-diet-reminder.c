@@ -9,14 +9,6 @@
 
 static Window *s_main_window, *s_reminder_window;
 
-Meal meals[5] = {
-	{8, 30, "breakfast", 0.25},
-	{10, 30, "snack #1", 0.1},
-	{12, 30, "lunch", 0.35},
-	{16, 30, "snack #2", 0.1},
-	{20, 00, "dinner", 0.2}
-};
-
 static void register_next_wakeup() {
 	struct TimeSorter *st = sort_times();
 	wakeup_cancel_all();
