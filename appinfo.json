@@ -1,9 +1,10 @@
 {
-  "uuid": "f88f6a23-6543-466e-8194-5daa2f263fc1",
+  "uuid": "0bf63a77-0bf5-41ce-a8a2-5c7d27591126",
   "shortName": "Diet reminder",
   "longName": "Diet reminder",
   "companyName": "istvan.bodnar@gmail.com",
-  "versionLabel": "1.0",
+  "versionCode": 2,
+  "versionLabel": "2.0",
   "sdkVersion": "3",
   "targetPlatforms": ["aplite", "basalt"],
   "watchapp": {
